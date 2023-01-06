@@ -80,6 +80,8 @@ RUN git clone --recursive https://github.com/apache/skywalking-php.git /opt/src/
     make && \
     make install 
 
+ADD skywalking_php.ini /etc/php.d/skywalking_php.ini
+
 #############################
 #      Configurations       #
 #############################
