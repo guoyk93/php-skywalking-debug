@@ -1,6 +1,8 @@
 # php-skywalking-debug
 
-## How to reproduce the BUG
+https://github.com/apache/skywalking/issues/10240
+
+## How to reproduce
 
 This image is build with `Apache Skywalking Agent` enabled, but without a available `Apache Skywalking Server` address.
 
