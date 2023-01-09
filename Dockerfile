@@ -75,7 +75,7 @@ RUN mkdir -p /opt/src/rust && \
 # build and install skywalking php agent from latest source
 RUN git clone --recursive https://github.com/apache/skywalking-php.git /opt/src/skywalking-php && \
     cd /opt/src/skywalking-php && \
-    git checkout -b current 470b8995c8cfd2fcc0af5cb87ba159069ae008e1 && \
+    git checkout -b current 8ad379fa9bcbf7ddaf36712cfc20bfb838c26868 && \
     phpize && \
     ./configure && \
     make && \
